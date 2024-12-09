@@ -1,0 +1,25 @@
+
+Steps for Pushing a Project to GitHub
+Navigate to Your Project Folder:
+cd /path/to/your/project
+
+Initialize Git in Your Folder:
+git init
+
+Add All Files to Git Staging:
+git add .
+Commit the Files:
+git commit -m "Initial commit"
+
+Add Remote GitHub Repository URL:
+git remote add origin https://github.com/<username>/<repo-name>.git
+
+Set the Remote URL (If Necessary):
+git remote set-url origin https://github.com/<username>/<repo-name>.git
+
+Push to GitHub:
+git push -u origin main
+
+After This Terminal Asks for UserName and Password 
+UserName:..... 
+Password:PAT From GitHub
